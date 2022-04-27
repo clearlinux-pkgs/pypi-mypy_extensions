@@ -4,7 +4,7 @@
 #
 Name     : pypi-mypy_extensions
 Version  : 0.4.3
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/63/60/0582ce2eaced55f65a4406fc97beba256de4b7a95a0034c6576458c6519f/mypy_extensions-0.4.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/63/60/0582ce2eaced55f65a4406fc97beba256de4b7a95a0034c6576458c6519f/mypy_extensions-0.4.3.tar.gz
 Summary  : Experimental type system extensions for programs checked with the mypy typechecker.
@@ -14,10 +14,6 @@ Requires: pypi-mypy_extensions-license = %{version}-%{release}
 Requires: pypi-mypy_extensions-python = %{version}-%{release}
 Requires: pypi-mypy_extensions-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: mypy_extensions
-Provides: mypy_extensions-python
-Provides: mypy_extensions-python3
-BuildRequires : pypi(typing)
 
 %description
 ===============
@@ -47,7 +43,6 @@ Summary: python3 components for the pypi-mypy_extensions package.
 Group: Default
 Requires: python3-core
 Provides: pypi(mypy_extensions)
-Requires: pypi(typing)
 
 %description python3
 python3 components for the pypi-mypy_extensions package.
@@ -62,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641457161
+export SOURCE_DATE_EPOCH=1651102665
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
