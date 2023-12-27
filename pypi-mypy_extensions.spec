@@ -4,7 +4,7 @@
 #
 Name     : pypi-mypy_extensions
 Version  : 1.0.0
-Release  : 41
+Release  : 42
 URL      : https://files.pythonhosted.org/packages/98/a4/1ab47638b92648243faf97a5aeb6ea83059cc3624972ab6b8d2316078d3f/mypy_extensions-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/98/a4/1ab47638b92648243faf97a5aeb6ea83059cc3624972ab6b8d2316078d3f/mypy_extensions-1.0.0.tar.gz
 Summary  : Type system extensions for programs checked with the mypy type checker.
